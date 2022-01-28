@@ -48,6 +48,9 @@ android {
 dependencies {
     implementation project(":meditationui")
     implementation project(":animationcodelab")
+    implementation project(":composewithrepository")
+    implementation project(":composehourglass")
+    implementation project(":composewithcanvas")
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation "androidx.compose.ui:ui:$compose_version"

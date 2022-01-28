@@ -33,123 +33,49 @@
 33  ~ THE SOFTWARE.
 34-->
 35<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-36    package="com.raywenderlich.android.words"
-37    android:versionCode="1"
-38    android:versionName="1.0" >
-39
-40    <uses-sdk
-41        android:minSdkVersion="24"
-41-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml
-42        android:targetSdkVersion="31" />
-42-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml
+36    package="com.raywenderlich.android.words" >
+37
+38    <uses-sdk
+39        android:minSdkVersion="21"
+39-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml
+40        android:targetSdkVersion="31" />
+40-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml
+41
+42    <uses-permission android:name="android.permission.INTERNET" />
+42-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:39:3-65
+42-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:39:20-62
 43
-44    <uses-permission android:name="android.permission.INTERNET" />
-44-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:39:3-65
-44-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:39:20-62
-45
-46    <application
-46-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:41:3-59:17
-47        android:name="com.raywenderlich.android.words.WordsApp"
-47-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:42:5-29
-48        android:allowBackup="false"
-48-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:43:5-32
-49        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-49-->[androidx.core:core:1.7.0-alpha01] /Users/quipperindonesia/.gradle/caches/transforms-3/c48d333792853218805cacb9e8357eea/transformed/core-1.7.0-alpha01/AndroidManifest.xml:24:18-86
-50        android:debuggable="true"
-51        android:extractNativeLibs="false"
-52        android:icon="@mipmap/ic_launcher"
-52-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:44:5-39
-53        android:label="@string/app_name"
-53-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:45:5-37
-54        android:supportsRtl="true"
-54-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:46:5-31
-55        android:testOnly="true"
-56        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-56-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:47:5-64
-57        <activity
-57-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:48:5-58:16
-58            android:name="com.raywenderlich.android.words.MainActivity"
-58-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:49:7-34
-59            android:exported="true"
-59-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:50:7-30
-60            android:label="@string/app_name"
-60-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:51:7-39
-61            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-61-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:52:7-66
-62            <intent-filter>
-62-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:53:7-57:23
-63                <action android:name="android.intent.action.MAIN" />
-63-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:54:9-61
-63-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:54:17-58
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:56:9-69
-65-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:56:19-66
-66            </intent-filter>
-67        </activity>
-68        <activity
-68-->[androidx.compose.ui:ui-tooling:1.0.1] /Users/quipperindonesia/.gradle/caches/transforms-3/b4646c2dd819c026eb508bda68089eed/transformed/ui-tooling-1.0.1/AndroidManifest.xml:25:9-27:39
-69            android:name="androidx.compose.ui.tooling.PreviewActivity"
-69-->[androidx.compose.ui:ui-tooling:1.0.1] /Users/quipperindonesia/.gradle/caches/transforms-3/b4646c2dd819c026eb508bda68089eed/transformed/ui-tooling-1.0.1/AndroidManifest.xml:26:13-71
-70            android:exported="true" />
-70-->[androidx.compose.ui:ui-tooling:1.0.1] /Users/quipperindonesia/.gradle/caches/transforms-3/b4646c2dd819c026eb508bda68089eed/transformed/ui-tooling-1.0.1/AndroidManifest.xml:27:13-36
-71
-72        <service
-72-->[androidx.room:room-runtime:2.4.1] /Users/quipperindonesia/.gradle/caches/transforms-3/27e95c9be51e878bcef1af98056e4f91/transformed/room-runtime-2.4.1/AndroidManifest.xml:25:9-28:40
-73            android:name="androidx.room.MultiInstanceInvalidationService"
-73-->[androidx.room:room-runtime:2.4.1] /Users/quipperindonesia/.gradle/caches/transforms-3/27e95c9be51e878bcef1af98056e4f91/transformed/room-runtime-2.4.1/AndroidManifest.xml:26:13-74
-74            android:directBootAware="true"
-74-->[androidx.room:room-runtime:2.4.1] /Users/quipperindonesia/.gradle/caches/transforms-3/27e95c9be51e878bcef1af98056e4f91/transformed/room-runtime-2.4.1/AndroidManifest.xml:27:13-43
-75            android:exported="false" />
-75-->[androidx.room:room-runtime:2.4.1] /Users/quipperindonesia/.gradle/caches/transforms-3/27e95c9be51e878bcef1af98056e4f91/transformed/room-runtime-2.4.1/AndroidManifest.xml:28:13-37
-76
-77        <provider
-77-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/quipperindonesia/.gradle/caches/transforms-3/eae878cbd8a2c8faf8e1c771b443136f/transformed/emoji2-1.0.0-alpha03/AndroidManifest.xml:26:9-34:20
-78            android:name="androidx.startup.InitializationProvider"
-78-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/quipperindonesia/.gradle/caches/transforms-3/eae878cbd8a2c8faf8e1c771b443136f/transformed/emoji2-1.0.0-alpha03/AndroidManifest.xml:27:13-67
-79            android:authorities="com.raywenderlich.android.words.androidx-startup"
-79-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/quipperindonesia/.gradle/caches/transforms-3/eae878cbd8a2c8faf8e1c771b443136f/transformed/emoji2-1.0.0-alpha03/AndroidManifest.xml:28:13-68
-80            android:exported="false" >
-80-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/quipperindonesia/.gradle/caches/transforms-3/eae878cbd8a2c8faf8e1c771b443136f/transformed/emoji2-1.0.0-alpha03/AndroidManifest.xml:29:13-37
-81            <meta-data
-81-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/quipperindonesia/.gradle/caches/transforms-3/eae878cbd8a2c8faf8e1c771b443136f/transformed/emoji2-1.0.0-alpha03/AndroidManifest.xml:31:13-33:52
-82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-82-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/quipperindonesia/.gradle/caches/transforms-3/eae878cbd8a2c8faf8e1c771b443136f/transformed/emoji2-1.0.0-alpha03/AndroidManifest.xml:32:17-75
-83                android:value="androidx.startup" />
-83-->[androidx.emoji2:emoji2:1.0.0-alpha03] /Users/quipperindonesia/.gradle/caches/transforms-3/eae878cbd8a2c8faf8e1c771b443136f/transformed/emoji2-1.0.0-alpha03/AndroidManifest.xml:33:17-49
-84            <meta-data
-84-->[androidx.lifecycle:lifecycle-process:2.4.0-alpha02] /Users/quipperindonesia/.gradle/caches/transforms-3/30ba7cb6ebc6dd3ac2a1a4dcc5c766f8/transformed/lifecycle-process-2.4.0-alpha02/AndroidManifest.xml:31:13-33:52
-85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-85-->[androidx.lifecycle:lifecycle-process:2.4.0-alpha02] /Users/quipperindonesia/.gradle/caches/transforms-3/30ba7cb6ebc6dd3ac2a1a4dcc5c766f8/transformed/lifecycle-process-2.4.0-alpha02/AndroidManifest.xml:32:17-78
-86                android:value="androidx.startup" />
-86-->[androidx.lifecycle:lifecycle-process:2.4.0-alpha02] /Users/quipperindonesia/.gradle/caches/transforms-3/30ba7cb6ebc6dd3ac2a1a4dcc5c766f8/transformed/lifecycle-process-2.4.0-alpha02/AndroidManifest.xml:33:17-49
-87            <meta-data
-87-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:31:13-33:52
-88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-88-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:32:17-85
-89                android:value="androidx.startup" />
-89-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:33:17-49
-90        </provider>
-91
-92        <receiver
-92-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:36:9-45:20
-93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-93-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:37:13-76
-94            android:directBootAware="false"
-94-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:38:13-44
-95            android:enabled="true"
-95-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:39:13-35
-96            android:exported="true"
-96-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:40:13-36
-97            android:permission="android.permission.DUMP" >
-97-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:41:13-57
-98            <intent-filter>
-98-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:42:13-44:29
-99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-99-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:43:17-91
-99-->[androidx.profileinstaller:profileinstaller:1.0.2] /Users/quipperindonesia/.gradle/caches/transforms-3/5b0c45386ab037f1ee3cd2ef175dba08/transformed/profileinstaller-1.0.2/AndroidManifest.xml:43:25-88
-100            </intent-filter>
-101        </receiver>
-102    </application>
-103
-104</manifest>
+44    <application
+44-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:41:3-57:17
+45        android:name="com.raywenderlich.android.words.WordsApp"
+45-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:42:5-29
+46        android:icon="@mipmap/ic_launcher"
+46-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:43:5-39
+47        android:label="@string/app_name"
+47-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:44:5-37
+48        android:supportsRtl="true" >
+48-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:45:5-31
+49        <activity
+49-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:46:5-56:16
+50            android:name="com.raywenderlich.android.words.MainActivity"
+50-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:47:7-34
+51            android:exported="true"
+51-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:48:7-30
+52            android:label="@string/app_name"
+52-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:49:7-39
+53            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+53-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:50:7-66
+54            <intent-filter>
+54-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:51:7-55:23
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:52:9-61
+55-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:52:17-58
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:54:9-69
+57-->/Users/quipperindonesia/Desktop/Learning/jetpack-compose/compose-learning-journey/composewithrepository/src/main/AndroidManifest.xml:54:19-66
+58            </intent-filter>
+59        </activity>
+60    </application>
+61
+62</manifest>

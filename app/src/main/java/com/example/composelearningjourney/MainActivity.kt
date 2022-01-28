@@ -15,7 +15,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.example.composelearningjourney.ui.theme.ComposeLearningJourneyTheme
 import com.example.android.codelab.animation.MainActivity as AnimationActivity
+import com.example.composecanvas.MainActivity as CanvasActivity
+import com.example.composehourglass.MainActivity as HourglassActivity
 import com.plcoding.meditationuiyoutube.MainActivity as MeditationActivity
+import com.raywenderlich.android.words.MainActivity as RepositoryActivity
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,6 +47,30 @@ class MainActivity : ComponentActivity() {
                         ButtonGoTo("Animation With Compose") {
                             startActivity(Intent(
                                 this@MainActivity, AnimationActivity::class.java
+                            ))
+                        }
+
+                        Spacer(modifier = Modifier.padding(8.dp))
+
+                        ButtonGoTo("Repository Pattern With Compose") {
+                            startActivity(Intent(
+                                this@MainActivity, RepositoryActivity::class.java
+                            ))
+                        }
+
+                        Spacer(modifier = Modifier.padding(8.dp))
+
+                        ButtonGoTo("Compose Hourglass Animation") {
+                            startActivity(Intent(
+                                this@MainActivity, HourglassActivity::class.java
+                            ))
+                        }
+
+                        Spacer(modifier = Modifier.padding(8.dp))
+
+                        ButtonGoTo("Compose With Canvas Custom") {
+                            startActivity(Intent(
+                                this@MainActivity, CanvasActivity::class.java
                             ))
                         }
                     }
