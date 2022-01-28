@@ -15,14 +15,14 @@
  */
 
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'kotlin-android'
 }
 
 android {
     compileSdkVersion 31
     defaultConfig {
-        applicationId 'com.example.android.codelab.animation'
+        //applicationId 'com.example.android.codelab.animation'
         minSdkVersion 21
         targetSdkVersion 31
         versionCode 1
