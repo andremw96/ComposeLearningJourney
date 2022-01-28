@@ -16,3 +16,4 @@ rootProject.name = "ComposeLearningJourney"
 include ':app'
 include ':meditationui'
 include ':animationcodelab'
+include ':composewithrepository'

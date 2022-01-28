@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rw_grey">#343434</color>
+    <color name="salem">#178043</color>
+    <string name="app_name">Words</string>
+</resources>
