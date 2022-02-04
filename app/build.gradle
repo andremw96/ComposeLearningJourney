@@ -51,6 +51,7 @@ dependencies {
     implementation project(":composewithrepository")
     implementation project(":composehourglass")
     implementation project(":composewithcanvas")
+    implementation project(":composetesting")
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation "androidx.compose.ui:ui:$compose_version"

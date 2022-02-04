@@ -1,0 +1,6 @@
+int color rw_grey 0x0
+int color salem 0x0
+int drawable ic_launcher_foreground 0x0
+int mipmap ic_launcher 0x0
+int raw words 0x0
+int string app_name 0x0

@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.example.compose.rally.RallyActivity
 import com.example.composelearningjourney.ui.theme.ComposeLearningJourneyTheme
 import com.example.android.codelab.animation.MainActivity as AnimationActivity
 import com.example.composecanvas.MainActivity as CanvasActivity
@@ -71,6 +72,14 @@ class MainActivity : ComponentActivity() {
                         ButtonGoTo("Compose With Canvas Custom") {
                             startActivity(Intent(
                                 this@MainActivity, CanvasActivity::class.java
+                            ))
+                        }
+
+                        Spacer(modifier = Modifier.padding(8.dp))
+
+                        ButtonGoTo("Compose Testing") {
+                            startActivity(Intent(
+                                this@MainActivity, RallyActivity::class.java
                             ))
                         }
                     }
