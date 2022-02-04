@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
 }
 
@@ -7,7 +7,6 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.composelearningjourney"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -46,13 +45,6 @@ android {
 }
 
 dependencies {
-    implementation project(":meditationui")
-    implementation project(":animationcodelab")
-    implementation project(":composewithrepository")
-    implementation project(":composehourglass")
-    implementation project(":composewithcanvas")
-    implementation project(":composetesting")
-    implementation project(":composetablayout")
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation "androidx.compose.ui:ui:$compose_version"
@@ -65,4 +57,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
+
+    implementation "com.google.accompanist:accompanist-pager:0.20.0"
 }
